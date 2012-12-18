@@ -1,0 +1,29 @@
+{
+  "name": "docfragify",
+  "version": "0.1.0",
+  "description": "browserify plugin to allow the requiring of .html and conversion to documentFragment",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmpvar/docfragify.git"
+  },
+  "keywords": [
+    "browserify",
+    "html",
+    "documentFragment",
+    "DOM"
+  ],
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "jsdom": "~0.3.2",
+    "browserify": "~1.16.6"
+  }
+}
